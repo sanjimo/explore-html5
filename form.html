@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Fillup:</h1>
+    <form action="">
+        <p>Name: <input type="text" name="name" placeholder="Enter your name" id=""></p>
+        <p>Email: <input type="text" name="email" placeholder="Enter your mail" id=""></p>
+        <fieldset>
+            <legend>Select your option:</legend>
+            <p>
+                <label for="Ice-cream">
+                    <input type="radio" name="desert" id="ice-cream">Ice-cream
+                </label>
+            </p>
+            <p>
+                <label for="Cake">
+                    <input type="radio" name="desert" id="cake">Cake
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your meal:</legend>
+            <p><label for="pasta"><input type="checkbox" name="meal" id="pasta">Pasta</label></p>
+            <p><label for="pizza"><input type="checkbox" name="meal" id="pizza">Pizza</label></p>
+        </fieldset>
+        <p>Special addition:
+            <br>
+            <textarea name="addition" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
